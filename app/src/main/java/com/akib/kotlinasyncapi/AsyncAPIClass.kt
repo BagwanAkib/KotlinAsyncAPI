@@ -6,6 +6,11 @@ import java.net.URL
 
 class AsyncAPIClass(private val activityCallBack: APIInterface) :
     AsyncTask<String, String, ArrayList<SongEntity>>() {
+
+    override fun onPreExecute() {
+        activityCallBack.onStartAPI()
+    }
+
     override fun onPostExecute(songs: ArrayList<SongEntity>?) {
         super.onPostExecute(songs)
         if (songs != null) {

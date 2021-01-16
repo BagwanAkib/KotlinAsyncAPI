@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mn_songs"
+        android:title="@string/songs" />
+    <item
+        android:id="@+id/mn_albam"
+        android:title="@string/album" />
+    <group >
+        <item
+            android:id="@+id/mn_10_records"
+            android:checked="true"
+            android:title="@string/_10_records" />
+        <item
+            android:id="@+id/mn_25_records"
+            android:title="@string/_25_records" />
+    </group>
+    <item
+        android:id="@+id/mn_refresh"
+        android:title="@string/refresh" />
+</menu>

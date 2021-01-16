@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">KotlinAsyncAPI</string>
+    <string name="songs">Songs</string>
+    <string name="album">Album</string>
+    <string name="_10_records">10 Records</string>
+    <string name="_25_records">25 Records</string>
+    <string name="refresh">Refresh</string>
 </resources>

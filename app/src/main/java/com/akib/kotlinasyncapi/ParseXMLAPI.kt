@@ -49,6 +49,7 @@ class ParseXMLAPI {
                                 "updated" -> song.updated = textValue
                                 "releaseDate" -> song.releaseDate = textValue
                                 "rights" -> song.rights = textValue
+                                "image" -> song.image = textValue
                             }
                     }
                 }

@@ -7,6 +7,7 @@ class SongEntity {
     var artist = ""
     var rights = ""
     var releaseDate = ""
+    var image  = ""
     override fun toString(): String {
         return "SongEntity(updated=$updated, title='$title', name='$name', artist='$artist', rights='$rights', releaseDate='$releaseDate')"
     }
